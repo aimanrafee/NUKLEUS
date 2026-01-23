@@ -3,59 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUKLEUS | Intelligence</title>
+    <title>NUKLEUS | Private Intelligence</title>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1a0b2e">
     <style>
         :root { --cosmos-dark: #1a0b2e; --cosmos-light: #2d1b4d; --atomic-gold: #ffcc00; --stellar-white: #e0d7ff; }
         body { font-family: 'Segoe UI', sans-serif; margin: 0; display: flex; flex-direction: column; height: 100vh; background: var(--cosmos-dark); color: var(--stellar-white); }
         header { background: linear-gradient(135deg, var(--cosmos-dark), var(--cosmos-light)); padding: 15px; text-align: center; border-bottom: 2px solid var(--atomic-gold); }
-        header h1 { margin: 0; font-size: 1.2rem; letter-spacing: 3px; color: var(--atomic-gold); }
+        header h1 { margin: 0; font-size: 1.2rem; letter-spacing: 3px; color: var(--atomic-gold); text-transform: uppercase; }
         #chat-box { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 15px; }
-        .msg { padding: 12px 18px; border-radius: 15px; max-width: 80%; line-height: 1.4; font-size: 0.9rem; }
+        .msg { padding: 12px 18px; border-radius: 15px; max-width: 80%; line-height: 1.4; font-size: 0.9rem; position: relative; }
         .received { background: var(--cosmos-light); align-self: flex-start; border: 1px solid rgba(255, 204, 0, 0.2); }
         .sent { background: linear-gradient(135deg, #4b2c85, #1a0b2e); align-self: flex-end; border: 1px solid var(--atomic-gold); }
-        .typing { font-style: italic; font-size: 0.8rem; color: var(--atomic-gold); margin-left: 20px; display: none; }
+        .typing { font-style: italic; font-size: 0.8rem; color: var(--atomic-gold); margin: 10px 20px; display: none; }
         footer { padding: 15px; background: var(--cosmos-dark); display: flex; gap: 10px; border-top: 1px solid rgba(255, 204, 0, 0.1); }
         input { flex: 1; padding: 12px; background: var(--cosmos-light); border: 1px solid var(--atomic-gold); border-radius: 25px; color: white; outline: none; }
         button { background: var(--atomic-gold); color: var(--cosmos-dark); border: none; padding: 10px 20px; border-radius: 25px; font-weight: bold; cursor: pointer; }
+        #key-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--cosmos-dark); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1000; padding: 20px; box-sizing: border-box; text-align: center; }
     </style>
 </head>
 <body>
 
-<header><h1>NUKLEUS INTELLIGENCE</h1></header>
+<div id="key-overlay">
+    <h2 style="color: var(--atomic-gold)">NUKLEUS VAULT</h2>
+    <p>Sila masukkan Gemini API Key anda untuk mengaktifkan kecerdasan teras.</p>
+    <input type="password" id="vaultKey" placeholder="Paste API Key di sini..." style="width: 80%; margin-bottom: 20px;">
+    <button onclick="saveKey()">AKTIFKAN CORE</button>
+</div>
 
+<header><h1>NUKLEUS INTELLIGENCE</h1></header>
 <div id="chat-box">
-    <div class="msg received">Sistem NUKLEUS diaktifkan. Saya adalah AI penasihat kedaulatan anda. Ada sebarang update tentang staking ATOM atau kedai RM 50k anda hari ini?</div>
+    <div class="msg received">Sistem NUKLEUS diaktifkan. Kunci kedaulatan anda sah. Sedia untuk bincang strategi 1,000,000 ATOM?</div>
 </div>
 <div id="typing" class="typing">Nukleus sedang berfikir...</div>
 
 <footer>
-    <input type="text" id="inputMsg" placeholder="Taip mesej anda...">
+    <input type="text" id="inputMsg" placeholder="Hantar denyutan data...">
     <button onclick="sendToGemini()">Hantar</button>
 </footer>
 
 <script>
-    const API_KEY = "AIzaSyADOltb1K3yzNV_bJZV0cpOAwxbckhM1DA"; 
-    const chatBox = document.getElementById('chat-box');
-    const typingIndicator = document.getElementById('typing');
+    let API_KEY = localStorage.getItem('nukleus_key');
+
+    // Periksa jika kunci sudah ada
+    if (API_KEY) {
+        document.getElementById('key-overlay').style.display = 'none';
+    }
+
+    function saveKey() {
+        const keyVal = document.getElementById('vaultKey').value.trim();
+        if (keyVal) {
+            localStorage.setItem('nukleus_key', keyVal);
+            API_KEY = keyVal;
+            document.getElementById('key-overlay').style.display = 'none';
+            location.reload();
+        }
+    }
 
     async function sendToGemini() {
         const input = document.getElementById('inputMsg');
         const text = input.value.trim();
-        if (!text) return;
+        if (!text || !API_KEY) return;
 
-        // Papar mesej pengguna
         appendMessage(text, 'sent');
         input.value = "";
-        typingIndicator.style.display = "block";
+        document.getElementById('typing').style.display = "block";
 
         try {
             const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
-                    contents: [{ parts: [{ text: `Anda adalah AI penasihat untuk projek NUKLEUS. Pengguna adalah staker ATOM dengan sasaran 1 juta unit dan sedang merancang perniagaan kedai RM 50k. Jawab dengan gaya profesional, ringkas, dan memotivasikan dalam Bahasa Melayu. Soalan pengguna: ${text}` }] }]
+                    contents: [{ parts: [{ text: `Anda adalah AI penasihat projek NUKLEUS. Pengguna adalah staker ATOM sasaran 1 juta unit & peniaga kedai modal RM 50k. Jawab dengan profesional, berwibawa & memotivasi dalam BM. Soalan: ${text}` }] }]
                 })
             });
 
@@ -63,13 +82,14 @@
             const aiResponse = data.candidates[0].content.parts[0].text;
             appendMessage(aiResponse, 'received');
         } catch (error) {
-            appendMessage("Ralat sambungan ke teras NUKLEUS. Sila cuba lagi.", 'received');
+            appendMessage("Ralat: Pastikan API Key betul atau kuota belum tamat.", 'received');
         } finally {
-            typingIndicator.style.display = "none";
+            document.getElementById('typing').style.display = "none";
         }
     }
 
     function appendMessage(text, type) {
+        const chatBox = document.getElementById('chat-box');
         const msgDiv = document.createElement('div');
         msgDiv.className = `msg ${type}`;
         msgDiv.textContent = text;
