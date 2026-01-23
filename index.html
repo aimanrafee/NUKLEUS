@@ -3,48 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUKLEUS CORE</title>
+    <title>NUKLEUS | Nota Kampung</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root { 
-            --cosmos-dark: #1a0b2e; 
-            --cosmos-light: #2d1b4d; 
+            --kampung-green: #2d5a27; /* Hijau alam */
+            --earth-brown: #4e342e; 
+            --soft-tan: #f5f5f0; 
             --atomic-gold: #ffcc00; 
-            --stellar-white: #e0d7ff; 
         }
 
         body { 
             font-family: 'Segoe UI', sans-serif; 
             margin: 0; 
-            background: var(--cosmos-dark); 
-            color: var(--stellar-white); 
+            background: var(--soft-tan); 
+            color: var(--earth-brown); 
             height: 100vh; 
             overflow: hidden; 
         }
 
-        /* --- SIDEBAR ALA TELEGRAM --- */
+        /* --- SIDEBAR SMOOTH --- */
         .sidebar { 
             position: fixed; 
-            left: -280px; /* Sembunyi ke kiri */
+            left: -280px; 
             top: 0; 
             width: 260px; 
             height: 100%; 
-            background: var(--cosmos-light); 
+            background: white; 
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
             z-index: 1001; 
-            border-right: 1px solid var(--atomic-gold);
-            box-shadow: 10px 0 20px rgba(0,0,0,0.5);
+            box-shadow: 5px 0 15px rgba(0,0,0,0.1);
         }
 
-        /* Gerakan Smooth */
         .sidebar.active { 
             transform: translateX(280px); 
         }
 
         .sidebar-header {
-            background: linear-gradient(to bottom right, #4b2c85, var(--cosmos-dark));
-            padding: 30px 20px;
+            background: var(--kampung-green);
+            padding: 40px 20px;
             text-align: center;
+            color: white;
         }
 
         .sidebar-item { 
@@ -53,34 +52,35 @@
             display: flex; 
             align-items: center; 
             gap: 15px; 
-            transition: 0.2s;
+            color: var(--earth-brown);
+            border-bottom: 1px solid #eee;
         }
 
-        .sidebar-item:hover { background: rgba(255,204,0,0.1); color: var(--atomic-gold); }
+        .sidebar-item:hover { background: #f0f7f0; color: var(--kampung-green); }
 
         /* --- HEADER --- */
         header { 
-            background: var(--cosmos-dark); 
+            background: white; 
             padding: 15px; 
             display: flex; 
             align-items: center; 
-            border-bottom: 1px solid rgba(255,204,0,0.2); 
+            border-bottom: 2px solid var(--kampung-green); 
         }
 
-        .menu-btn { font-size: 1.5rem; cursor: pointer; color: var(--atomic-gold); }
-        header h1 { margin: 0 0 0 20px; font-size: 1.1rem; letter-spacing: 2px; flex: 1; }
+        .menu-btn { font-size: 1.5rem; cursor: pointer; color: var(--kampung-green); }
+        header h1 { margin: 0 0 0 20px; font-size: 1.1rem; letter-spacing: 1px; flex: 1; color: var(--earth-brown); }
 
         /* --- CONTENT VIEWS --- */
         .view { display: none; height: calc(100vh - 70px); overflow-y: auto; padding: 20px; box-sizing: border-box; }
         .view.active { display: block; }
 
         .card { 
-            background: var(--cosmos-light); 
-            border-radius: 15px; 
+            background: white; 
+            border-radius: 12px; 
             padding: 20px; 
             margin-bottom: 15px; 
-            border: 1px solid rgba(255,204,0,0.2); 
-            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--kampung-green);
         }
 
         /* --- OVERLAY --- */
@@ -89,10 +89,15 @@
             position: fixed; 
             top: 0; left: 0; 
             width: 100%; height: 100%; 
-            background: rgba(0,0,0,0.5); 
+            background: rgba(0,0,0,0.3); 
             z-index: 1000; 
         }
         .overlay.active { display: block; }
+        
+        /* Input Footer */
+        footer { position: fixed; bottom: 0; width: 100%; padding: 15px; background: white; display: flex; gap: 10px; box-sizing: border-box; border-top: 1px solid #ddd; }
+        input { flex: 1; padding: 10px 15px; border: 1px solid #ccc; border-radius: 20px; outline: none; }
+        button { background: var(--kampung-green); color: white; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -101,40 +106,48 @@
 
 <div class="sidebar" id="sidebar">
     <div class="sidebar-header">
-        <i class="fas fa-atom fa-3x" style="color: var(--atomic-gold)"></i>
-        <div style="margin-top:10px; font-weight:bold;">NUKLEUS PROJECT</div>
+        <i class="fas fa-home fa-3x"></i>
+        <div style="margin-top:10px; font-weight:bold; letter-spacing: 2px;">NOTA KAMPUNG</div>
     </div>
-    <div class="sidebar-item" onclick="showView('chat')"><i class="fas fa-comment"></i> Nota Peribadi</div>
-    <div class="sidebar-item" onclick="showView('staking')"><i class="fas fa-chart-line"></i> 1M ATOM Goal</div>
-    <div class="sidebar-item" onclick="showView('kedai')"><i class="fas fa-store"></i> Kedai RM50k</div>
+    <div class="sidebar-item" onclick="showView('log')"><i class="fas fa-book"></i> Log Harian</div>
+    <div class="sidebar-item" onclick="showView('projek')"><i class="fas fa-tools"></i> Projek Kedai</div>
+    <div class="sidebar-item" onclick="showView('komuniti')"><i class="fas fa-users"></i> Hub Komuniti</div>
 </div>
 
 <header>
     <i class="fas fa-bars menu-btn" onclick="toggleMenu()"></i>
-    <h1 id="page-title">NOTA PERIBADI</h1>
+    <h1 id="page-title">LOG HARIAN</h1>
 </header>
 
-<div id="chat-view" class="view active">
-    <div class="card">
-        <p>Gunakan bahagian ini untuk simpan idea inovasi anda.</p>
+<div id="log-view" class="view active">
+    <div id="notes-container">
+        <div class="card">
+            <small>23 Jan 2026</small>
+            <p>Mula membina sistem Nota Kampung. Fokus kepada kesederhanaan.</p>
+        </div>
     </div>
 </div>
 
-<div id="staking-view" class="view">
+<div id="projek-view" class="view">
     <div class="card">
-        <h3>SASARAN</h3>
-        <h1 style="color:var(--atomic-gold)">1,000,000 ATOM</h1>
-        <p>Baki: 999,500 ATOM lagi.</p>
+        <h3>Perancangan Kedai RM50k</h3>
+        <p>☐ Cari pembekal barang basah.</p>
+        <p>☐ Survey lokasi strategik di kampung.</p>
+        <p>☐ Lukis pelan susun atur rak.</p>
     </div>
 </div>
 
-<div id="kedai-view" class="view">
+<div id="komuniti-view" class="view">
     <div class="card">
-        <h3>KEDAI MANAGEMENT</h3>
-        <p>Modal: RM 50,000</p>
-        <p>Target Profit: RM 5,000/bulan</p>
+        <h3>Hub Komuniti</h3>
+        <p>Ruang untuk mencatat keperluan penduduk kampung atau program akan datang.</p>
     </div>
 </div>
+
+<footer id="main-footer">
+    <input type="text" id="noteInput" placeholder="Tulis nota baru...">
+    <button onclick="addQuickNote()">Simpan</button>
+</footer>
 
 <script>
     function toggleMenu() {
@@ -143,18 +156,30 @@
     }
 
     function showView(viewId) {
-        // Sembunyikan semua view
         document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-        
-        // Tunjukkan view yang dipilih
         document.getElementById(viewId + '-view').classList.add('active');
         
-        // Tukar tajuk header
-        const titles = { 'chat': 'NOTA PERIBADI', 'staking': '1M ATOM GOAL', 'kedai': 'KEDAI RM50K' };
+        const titles = { 'log': 'LOG HARIAN', 'projek': 'PROJEK KEDAI', 'komuniti': 'HUB KOMUNITI' };
         document.getElementById('page-title').textContent = titles[viewId];
         
-        // Tutup menu
+        // Sembunyikan footer jika bukan di Log Harian
+        document.getElementById('main-footer').style.display = (viewId === 'log') ? 'flex' : 'none';
+        
         toggleMenu();
+    }
+
+    function addQuickNote() {
+        const input = document.getElementById('noteInput');
+        if(!input.value) return;
+        
+        const container = document.getElementById('notes-container');
+        const newCard = document.createElement('div');
+        newCard.className = 'card';
+        const date = new Date().toLocaleDateString('ms-MY');
+        newCard.innerHTML = `<small>${date}</small><p>${input.value}</p>`;
+        
+        container.prepend(newCard);
+        input.value = '';
     }
 </script>
 
