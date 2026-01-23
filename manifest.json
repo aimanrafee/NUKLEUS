@@ -1,0 +1,22 @@
+{
+  "name": "NUKLEUS Sovereignty",
+  "short_name": "NUKLEUS",
+  "description": "Atomic distance messaging and sovereignty management.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#1a0b2e",
+  "theme_color": "#1a0b2e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/fluent-systems-filled/512/ffcc00/atom.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.icons8.com/fluent-systems-filled/512/ffcc00/atom.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
