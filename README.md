@@ -1,33 +1,32 @@
 <h1 align="center">
-    𝓗𝓲 👋, 𝓘'𝓶 𝓟𝓮𝓮𝓽𝓵𝓪 𝓜𝓪𝓱𝓮𝓼h
+    𝓗𝓲 👋, 𝓘'𝓶 𝓐𝓘𝓶𝓪𝓷
 </h1>
-<!-- 🔥 Animated Typing -->
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Java+Backend+Developer;Spring+Boot+Enthusiast;Problem+Solver+on+LeetCode;Open+Source+Learner" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=700&lines=Architect+of+Offline+Smartest+Algorithm;HTML+Version+Solid+2050;Full+Stack+Web+Developer;PWA+%26+Edge+Computing+Enthusiast;Problem+Solver" />
 </p>
 
 ---
-<!-- 👁 Profile Views -->
 <h2 align="center"> 💡 My Profile Views </h2>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PeetlaMahesh123&label=Profile%20views&color=8A2BE2&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=AIman2050&label=Algorithm%20Syncs&color=8A2BE2&style=flat" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/followers/PeetlaMahesh123?label=Followers&style=for-the-badge&color=1E90FF" />
-  <img src="https://img.shields.io/badge/dynamic/json?label=Following&query=$.following&url=https://api.github.com/users/PeetlaMahesh123&style=for-the-badge&color=28A745" />
+  <img src="https://img.shields.io/github/followers/AIman2050?label=Followers&style=for-the-badge&color=1E90FF" />
+  <img src="https://img.shields.io/badge/status-synced-28A745?style=for-the-badge&logo=github" />
 </p>
 
 ---
 <h3 align="center">
-    Aspiring Software Developer | Java Full-Stack Developer | Java Developer | Front End Developer | Back End Developer
+    Offline OS Architect | Full-Stack Developer | HTML Specialist | Algorithm Designer
 </h3>
 
 ---
 <p align="center">
-A passionate and motivated software developer with strong foundations in full-stack development, 
-backend engineering, and problem-solving. I enjoy building real-world, scalable applications and 
-continuously improving my skills to align with modern industry standards.
+A passionate and motivated developer focused on building the "Offline Smartest Algorithm" for the 2050 web ecosystem. 
+I specialize in creating high-performance, local-first applications that bring intelligence to the browser without 
+needing a constant cloud connection.
 </p>
 
 ---
@@ -37,12 +36,15 @@ continuously improving my skills to align with modern industry standards.
 <h2 align="center"> 🚀 Most Used Technologies </h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,react,js,html,css,mysql,mongodb,git,github,docker,vscode" />
+  <img src="https://skillicons.dev/icons?i=html,js,css,react,nextjs,wasm,nodejs,express,mongodb,mysql,git,github,vscode,docker" />
 </p>
 
 ---
 
-<h2 align="center"> 🔥 Contribution Graph </h2> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=PeetlaMahesh123&theme=chartreuse-dark" /> </p>
+<h2 align="center"> 🔥 Contribution Graph </h2> 
+<p align="center"> 
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AIman2050&theme=chartreuse-dark" /> 
+</p>
 
 ---
 
@@ -50,28 +52,24 @@ continuously improving my skills to align with modern industry standards.
 
 <div align="center">
 
-  <a href="https://github.com/PeetlaMahesh123" target="_blank">
+  <a href="https://github.com/AIman2050" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" height="40" />
   </a>
 
-  <a href="https://www.linkedin.com/in/peetla-mahesh-372438253" target="_blank">
+  <a href="#" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" height="40" />
   </a>
 
-  <a href="mailto:peetlamahesh81@gmail.com">
+  <a href="mailto:aiman@yourdomain.com">
     <img src="https://skillicons.dev/icons?i=gmail" height="40" />
   </a>
 
-  <a href="https://peetlamahesh123.github.io/myPortfolio/" target="_blank">
+  <a href="#" target="_blank">
     <img src="https://img.icons8.com/color/48/domain.png" height="40" />
   </a>
 
-  <a href="tel:+919182353829">
+  <a href="tel:+60123456789">
     <img src="https://img.icons8.com/color/48/phone.png" height="40" />
-  </a>
-
-  <a href="https://leetcode.com/u/mahesh21cs042/" target="_blank">
-    <img src="https://cdn.simpleicons.org/leetcode/FFA116" height="40" />
   </a>
 
 </div>
@@ -81,7 +79,7 @@ continuously improving my skills to align with modern industry standards.
 <h2 align="center">🔥 Contribution Overview</h2>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PeetlaMahesh123&theme=vision-friendly-dark" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AIman2050&theme=vision-friendly-dark" />
 </p>
 
 ---
@@ -89,29 +87,23 @@ continuously improving my skills to align with modern industry standards.
 <h2 align="center"> 📊 GitHub Stats </h2>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PeetlaMahesh123&theme=tokyonight" width="49%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=PeetlaMahesh123&theme=gruvbox" width="49%"/>
-</p>
-
----
-<h2 align="center"> 🧠 LeetCode Stats </h2>
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/mahesh21cs042?theme=dark&font=Karma&ext=contest" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AIman2050&theme=tokyonight" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AIman2050&theme=gruvbox" width="49%"/>
 </p>
 
 ---
 <h2 align="center">🏆 Highlights</h2>
 
-- 💻 100+ LeetCode Problems Solved  
-- 🚀 5+ Backend Projects Built  
-- 📦 10+ REST APIs Developed  
-- 🧠 Strong DSA & OOP Knowledge  
+- 💻 **Offline Smartest Algorithm** Core Architecture
+- 🚀 **5+ HTML 2050** Prototype Projects
+- 📦 **Local-First** Data Management Specialist
+- 🧠 Deep focus on **Deterministic Execution**
 
 ---
 ## 📈 Activity & Radar Chart
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PeetlaMahesh123&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AIman2050&theme=tokyonight" />
 </p>
 
 ---
@@ -119,18 +111,17 @@ continuously improving my skills to align with modern industry standards.
 ## 🥧 Languages & Contributions Summary
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PeetlaMahesh123&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=PeetlaMahesh123&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AIman2050&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AIman2050&theme=github_dark" />
 </p>
 
 ---
 ## 🚀 About Me
 
-- 🎓 B.E. in Computer Science and Engineering  
-- 💻 Interested in Full-Stack Development & Backend Engineering  
-- 🌱 Continuously learning and building real-world projects  
-- 🧠 Strong understanding of core computer science concepts  
-- 🎯 Focused on writing clean, efficient, and maintainable code  
+- 💻 Developing the **Solid 2050 HTML Framework**
+- 🌱 Continuously learning **WebAssembly** for low-level browser performance
+- 🧠 Focused on **privacy-centric** offline intelligence
+- 🎯 Passionate about writing clean, modular, and future-proof code
 
 ---
 
@@ -139,94 +130,49 @@ continuously improving my skills to align with modern industry standards.
 <table align="center">
 <tr>
 <td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=java" width="50"/><br><sub><b>Java</b></sub>
+<img src="https://skillicons.dev/icons?i=html" width="50"/><br><sub><b>HTML5</b></sub>
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=js" width="50"/><br><sub><b>JavaScript</b></sub>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=wasm" width="50"/><br><sub><b>WebAssembly</b></sub>
 </td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=python" width="50"/><br><sub><b>Python</b></sub>
 </td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=c" width="50"/><br><sub><b>C</b></sub>
-</td>
 </tr>
 </table>
 
 ---
-<h2 align="center">⚙ Backend Technologies</h2>
+<h2 align="center">⚙ Offline & Core Technologies</h2>
 
 <table align="center">
 <tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=spring" width="50"/><br><sub><b>Spring</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br><sub><b>Node.js</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=express" width="50"/><br><sub><b>Express</b></sub>
-</td>
-</tr>
-</table>
-
----
-<h2 align="center">🎨 Frontend Technologies</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=html" width="50"/><br><sub><b>HTML5</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=css" width="50"/><br><sub><b>CSS3</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=js" width="50"/><br><sub><b>JavaScript</b></sub>
-</td>
 <td align="center" width="120">
 <img src="https://skillicons.dev/icons?i=react" width="50"/><br><sub><b>React</b></sub>
 </td>
 <td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=angular" width="50"/><br><sub><b>Angular</b></sub>
+<img src="https://skillicons.dev/icons?i=nextjs" width="50"/><br><sub><b>Next.js</b></sub>
 </td>
 <td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=bootstrap" width="50"/><br><sub><b>Bootstrap</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=tailwind" width="50"/><br><sub><b>Tailwind</b></sub>
+<img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br><sub><b>Node.js</b></sub>
 </td>
 </tr>
 </table>
 
 ---
-<h2 align="center">🗄️ Databases</h2>
+<h2 align="center">🗄️ Databases (Local & Cloud)</h2>
 
 <table align="center">
   <tr>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=mysql" width="50"/><br>
-      <sub><b>MySQL</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=postgres" width="50"/><br>
-      <sub><b>PostgreSQL</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://img.icons8.com/color/48/oracle-logo.png" width="50"/><br>
-      <sub><b>Oracle</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://img.icons8.com/color/48/microsoft-sql-server.png" width="50"/><br>
-      <sub><b>SQL Server</b></sub>
-    </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br>
       <sub><b>MongoDB</b></sub>
     </td>
     <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=firebase" width="50"/><br>
-      <sub><b>Firebase</b></sub>
+      <img src="https://skillicons.dev/icons?i=mysql" width="50"/><br>
+      <sub><b>MySQL</b></sub>
     </td>
     <td align="center" width="120">
       <img src="https://skillicons.dev/icons?i=redis" width="50"/><br>
@@ -236,211 +182,15 @@ continuously improving my skills to align with modern industry standards.
 </table>
 
 ---
-<h2 align="center">🔁 Version Control</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=git" width="50"/><br><sub><b>Git</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=github" width="50"/><br><sub><b>GitHub</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=gitlab" width="50"/><br><sub><b>GitLab</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=bitbucket" width="50"/><br><sub><b>Bitbucket</b></sub>
-</td>
-</tr>
-</table>
-
----
-<h2 align="center">🚀 DevOps & Deployment</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=docker" width="50"/><br><sub><b>Docker</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br><sub><b>Kubernetes</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=aws" width="50"/><br><sub><b>AWS</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=azure" width="50"/><br><sub><b>Azure</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=gcp" width="50"/><br><sub><b>GCP</b></sub>
-</td>
-</tr>
-</table>
-
----
-<h2 align="center">📦 Build Tools</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=maven" width="50"/><br><sub><b>Maven</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=gradle" width="50"/><br><sub><b>Gradle</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=npm" width="50"/><br><sub><b>npm</b></sub>
-</td>
-</tr>
-</table>
-
----
-<h2 align="center">🧑‍💻 IDE & Code Editors</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=vscode" width="50"/><br><sub><b>VS Code</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=idea" width="50"/><br><sub><b>IntelliJ</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=eclipse" width="50"/><br><sub><b>Eclipse</b></sub>
-</td>
-</tr>
-</table>
-
----
-<h2 align="center">🧪 API & Testing Tools</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=postman" width="50"/><br><sub><b>Postman</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=swagger" width="50"/><br><sub><b>Swagger</b></sub>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=selenium" width="50"/><br><sub><b>Selenium</b></sub>
-</td>
-</tr>
-</table>
-
----
-<h2 align="center">🛠️ Other Tools</h2>
-
-<table align="center">
-  <tr>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=linux" width="50"/><br>
-      <sub><b>Linux</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=bash" width="50"/><br>
-      <sub><b>Bash</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://skillicons.dev/icons?i=figma" width="50"/><br>
-      <sub><b>Figma</b></sub>
-    </td>
-  </tr>
-</table>
-
----
 ## 📌 Projects
 
-### 🎓 React Todo List Application (React.js)
+### 🧠 The Offline Smartest Algorithm (HTML Solid 2050)
+• Core engine for local-first data processing without internet dependency.
+• Optimized for HTML5 browser environments.
 
-• Built a responsive task management application using React  
-• Implemented add, edit, delete, and mark-as-complete features  
-• Used React Hooks (useState, useEffect) for state management  
-• Integrated Local Storage for persistent data storage  
-
-### 🛒 Shop Management System (Hibernate)
-• Admin-only authentication using enum-based role management  
-• Implemented secure CRUD operations  
-• Prevented unauthorized access  
-
-### 📝 Online Quiz Application (HTML, CSS, JavaScript)
-
-• Built an interactive quiz platform using pure frontend technologies  
-• Implemented dynamic question rendering and answer validation logic  
-• Developed score tracking system with performance summary  
-• Integrated countdown timer for enhanced user experience  
-• Designed clean and responsive UI layout  
-
-### 🎓 Student Management System (JDBC)
-• Built CRUD operations for student records  
-• Used JDBC for database connectivity  
-
-### 🎮 Guess Word Game (HTML, CSS, JavaScript)
-
-• Developed an interactive word guessing game using pure frontend technologies  
-• Implemented random word generation and input validation logic  
-• Provided real-time feedback for correct and incorrect guesses  
-• Added attempt limits and win/lose condition handling  
-• Designed responsive and engaging user interface  
-
-### 🏥 Hospital Management System (JDBC)
-• Managed patients, doctors, and appointments  
-• Designed relational database tables  
-
----
-
-<h2 align="center">🎓 Education</h2>
-
-<table align="center">
-  <tr>
-    <td align="center" width="120">
-      <img src="https://img.icons8.com/color/96/graduation-cap.png" width="60"/><br>
-      <sub><b>B.E. – CSE</b></sub>
-    </td>
-    <td>
-      <b>Akshaya College of Engineering and Technology</b><br>
-      2021 – 2025<br>
-      🎯 CGPA: <b>8.24 / 10</b>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="120">
-      <img src="https://img.icons8.com/color/96/books.png" width="60"/><br>
-      <sub><b>Intermediate (HSC)</b></sub>
-    </td>
-    <td>
-      <b>Sri Krishna Reddy Siddhartha Junior College</b><br>
-      2019 – 2021<br>
-      📊 Percentage: <b>94.8%</b>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="120">
-      <img src="https://img.icons8.com/color/96/school-building.png" width="60"/><br>
-      <sub><b>Secondary (SSC)</b></sub>
-    </td>
-    <td>
-      <b>Zilla Parishad High School</b><br>
-      2018 – 2019<br>
-      🎯 CGPA: <b>9.8 / 10</b>
-    </td>
-  </tr>
-</table>
- 
-
----
-
-## 🏆 Certifications & Achievements
-
-- 🏅 Dr. Kalam Young Achiever Award  
-- 💼 JPMorgan Chase Job Simulation  
-- 🌐 Cisco Network Essentials  
-- 🤖 AI Tools & ChatGPT Workshop  
-- ☁️ MongoDB Atlas  
-- ⚙️ UiPath Automation  
+### 🌐 Smart PWA OS Concept
+• A browser-based operating system shell with offline file management.
+• Implemented using Service Workers and IndexedDB.
 
 ---
 
@@ -452,14 +202,16 @@ continuously improving my skills to align with modern industry standards.
 
 ---
 ## 📞 Contact Me
-    Phone : +91 9182353829
-    email: peetlamahesh81@gmail.com
- Address: 11-106C-1, B. Kotha Vaddi Palli, Balaiahgari Palli, Kalakada, Annamaiah(D) Tirupati, Andhra Pradesh, India Pincode- (517236).
+    email: aiman@yourdomain.com
+    Location: Kuala Lumpur, Malaysia
 
  <table align="center">
 <tr>
 <td align="center">
-<a href="https://www.google.com/maps/search/?api=1&query=11-106C-1,+B.+Kotha+Vaddi+Palli,+Balaiahgari+Palli,+Kalakada,+Annamaiah,+Tirupati,+Andhra+Pradesh,+517236" target="_blank">
+<a href="#" target="_blank">
   <img src="https://img.icons8.com/fluency/48/navigation.png" width="50"/>
 </a><br>
-<sub><b>Tirupati, Andhra Pradesh, India</b></sub>
+<sub><b>Kuala Lumpur, Malaysia</b></sub>
+</td>
+</tr>
+</table>
