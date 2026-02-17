@@ -1,43 +1,95 @@
-<h1 align="center">Hi 👋, I'm AIman</h1>
-<h3 align="center">Architect of the Offline Smartest Algorithm | HTML 2050 Visionary</h3>
+# 𝓗𝓲 👋, 𝓘'𝓶 𝓐𝓘𝓶𝓪𝓷
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=AIman&label=Algorithm%20Syncs&color=0e75b6&style=flat" alt="AIman" /> </p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F2FF&width=435&lines=Architect+of+Offline+Smartest+Algo;HTML+Version+Solid+2050;Full+Stack+Future+Developer" alt="Typing SVG" />
+</p>
 
-- 🔭 I’m currently building **The Offline Smartest Algorithm (HTML Version Solid 2050)**
-- 🌱 I’m mastering **Local-First Computation & Neural Networks in JS**
-- 👯 I’m looking to collaborate on **Offline-Ready Web Operating Systems**
-- 💬 Ask me about **HTML, High-Performance Algorithms, and Edge Computing**
-- 📫 Reach my core system at **aiman@yourdomain.com**
+---
 
-<h3 align="left">Connect with my Neural Network:</h3>
+### 💡 Profile Analytics (2050 Node)
 <p align="left">
-<a href="https://linkedin.com/in/AIman" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="AIman-linkedin" height="30" width="40" /></a>
-<a href="https://github.com/AIman" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="AIman-github" height="30" width="40" /></a>
+<img src="https://komarev.com/ghpvc/?username=AIman2050&label=Algorithm%20Syncs&color=00f2ff&style=flat" alt="AIman" />
 </p>
 
-<h3 align="left">Core Stack & Future Tools:</h3>
-<p align="left"> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-<a href="https://webassembly.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" alt="webassembly" width="40" height="40"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> 
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
+**Visionary Developer | Algorithm Specialist | HTML OS Architect**
+
+Seorang pembangun perisian yang berwawasan dengan fokus membina algoritma "offline-first" yang paling bijak. Saya percaya bahawa masa depan teknologi terletak pada keupayaan web (HTML) untuk berfungsi secara bebas tanpa bergantung sepenuhnya pada awan (cloud).
+🚀 *"Code is not just logic; it's the DNA of a digital autonomy."*
+
+---
+
+### 🚀 Most Used Technologies (Core Engines)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=peetlamahesh123&layout=compact&theme=tokyonight" alt="Top Langs" />
+</p>
+
+### 🔥 Contribution Matrix
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=peetlamahesh123&theme=tokyonight" alt="AIman Streak" />
+
+---
+
+### 🌐 Connect with the Core
+<p align="left">
+<a href="mailto:aiman@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
 </p>
 
 ---
 
-### 📊 System Performance (GitHub Stats):
-
+### 📊 System Stats & Intelligence
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AIman&show_icons=true&theme=dark" alt="AIman's Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AIman&theme=dark" alt="AIman's Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=peetlamahesh123&show_icons=true&theme=tokyonight" alt="Stats" />
 </p>
 
 ---
+
+### 🧠 Core Competencies (The 2050 Stack)
+
+#### 💻 Programming Languages
+- **Java / JavaScript** (Primary Logic)
+- **HTML5 / CSS3** (The UI Foundation)
+- **WebAssembly** (For High-Speed Offline Calculation)
+
+#### ⚙️ Offline Smartest Frameworks
+- **React & Next.js** (Dynamic Interfaces)
+- **Node.js & Express** (Edge Computing)
+- **PWA (Progressive Web Apps)** (Offline Capabilities)
+
+#### 🗄️ Localized Databases
+- **IndexedDB / LocalStorage** (Real-time Offline Data)
+- **MongoDB / PostgreSQL** (Cloud Syncing)
+
+---
+
+### 📌 Flagship Projects
+
+#### 🤖 The Offline Smartest Algorithm (HTML Solid 2050)
+* **Description:** Algoritma berasaskan HTML yang mampu memproses data kompleks secara offline 100%.
+* **Tech:** HTML, WebAssembly, Service Workers.
+* **Feature:** Pemprosesan neural-network di sisi klien tanpa latensi internet.
+
+#### 📁 Web-Based Offline OS Concept
+* Membina persekitaran OS dalam pelayar (browser) yang mampu mengurus fail dan aplikasi tanpa sambungan luar.
+
+---
+
+### 🏆 Achievements
+- 💻 **100+ Algorithm Challenges** Solved.
+- 🚀 Developed **HTML-Based Edge Compute** prototypes.
+- 🧠 Specialist in **Deterministic Logic** for offline systems.
+
+---
+
+### 🐍 Neural Activity Flow
+![snake gif](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+
+---
+
+### 📞 Contact Node
+- **Location:** Kuala Lumpur, Malaysia (Syncing to Global)
+- **Status:** Building the Future.
+
 <p align="center">
-  <i>"Predicting the future by coding it today. Offline. Smart. 2050 Ready."</i>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=00F2FF&height=100&section=footer" />
 </p>
